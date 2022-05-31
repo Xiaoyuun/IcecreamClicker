@@ -8,6 +8,13 @@ import auth from "@react-native-firebase/auth"
 import firestore from "@react-native-firebase/firestore"
 if (!global.btoa) { global.btoa = encode }
 if (!global.atob) { global.atob = decode }
+import {
+  SafeAreaView,
+  StyleSheet,
+  Text,
+  TextInput,
+  TouchableOpacity,
+} from 'react-native';
 
 const Stack = createStackNavigator(); // calling the method and setting stack to whatever the method returns
 

@@ -5,6 +5,13 @@ export default StyleSheet.create({
         flex: 1,
         alignItems: 'center'
     },
+    logo: {
+        flex: 1,
+        height: 120,
+        width: 90,
+        alignSelf: "center",
+        margin: 30
+    },
     formContainer: {
         flexDirection: 'row',
         height: 80,
